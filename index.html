@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Вход в систему</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="login-card" aria-label="Форма входа">
+    <h1>Добро пожаловать</h1>
+    <p>Войдите, чтобы продолжить</p>
+
+    <form>
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required />
+      </div>
+
+      <div class="field">
+        <label for="password">Пароль</label>
+        <input id="password" name="password" type="password" placeholder="••••••••" required />
+      </div>
+
+      <div class="actions">
+        <button type="submit">Войти</button>
+        <a href="#">Забыли пароль?</a>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
